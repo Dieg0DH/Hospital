@@ -270,15 +270,18 @@ front/M3_project/
    - View all your scheduled appointments
    - Cancel appointments if needed
 
-## 🔒 Security Features
+{{ ... }}
 
-- **Password Encryption**: All passwords are hashed using bcrypt
+<details>
+  <summary><strong>🔒 Security Features</strong></summary>
+
 - **Input Validation**: Comprehensive form validation on both frontend and backend
 - **CORS Protection**: Configured cross-origin resource sharing
-- **Error Handling**: Secure error messages that don't expose sensitive information
 - **Authentication Middleware**: Protected routes for authenticated users only
+</details>
 
-## 📱 API Endpoints
+<details>
+  <summary><strong>📱 API Endpoints</strong></summary>
 
 ### Authentication
 
@@ -290,11 +293,7 @@ front/M3_project/
 - `GET /appointments` - Get user appointments
 - `POST /appointments` - Create new appointment
 - `DELETE /appointments/:id` - Cancel appointment
-
-### Services
-
-- `GET /services` - Get available services
-- `GET /schedule` - Get business hours
+</details>
 
 ---
 
