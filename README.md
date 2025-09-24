@@ -244,7 +244,12 @@ front/M3_project/
 
 </details>
 
-## 🎮 How to Use
+{{ ... }}
+
+## 🎮 User Guide
+
+<details>
+  <summary><strong>How to Use</strong></summary>
 
 ### For Users
 
@@ -268,14 +273,7 @@ front/M3_project/
 4. **Manage Appointments**
    - View all your scheduled appointments
    - Cancel appointments if needed
-
-<details>
-  <summary><strong>🔒 Security Features</strong></summary>
-
-- **Input Validation**: Comprehensive form validation on both frontend and backend
-- **CORS Protection**: Configured cross-origin resource sharing
-- **Authentication Middleware**: Protected routes for authenticated users only
-</details>
+   </details>
 
 <details>
   <summary><strong>📱 API Endpoints</strong></summary>
