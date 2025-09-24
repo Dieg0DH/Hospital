@@ -2,7 +2,7 @@
 
 <div align="center">
   <p>
-    <strong>_Modern healthcare management system with intuitive appointment booking.</strong>
+    <strong>Modern healthcare management system with intuitive appointment booking.</strong>
   </p>
 </div>
 
@@ -10,7 +10,7 @@
 
 <div align="center">
   <img src="front/M3_project/src/assets/1.png" alt="PAPI's Medical Care Preview" width="600">
-  <p><em>Screenshot of the appointment booking interface</em></p>
+  <p><em>Screenshot of the appointment Home page</em></p>
 </div>
 
 ## ✨ Features
@@ -269,8 +269,6 @@ front/M3_project/
 4. **Manage Appointments**
    - View all your scheduled appointments
    - Cancel appointments if needed
-
-{{ ... }}
 
 <details>
   <summary><strong>🔒 Security Features</strong></summary>
