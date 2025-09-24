@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap");
+
+.navbar {
+  background-color: white;
+  padding: 1.5rem 2rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: 80px;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  cursor: pointer;
+  flex-shrink: 0;
+  min-width: 280px;
+  flex: 0 0 auto;
+}
+
+.brand-main {
+  color: #0056b3;
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.2rem;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brand-subtitle {
+  color: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+/* Center container */
+.navbar-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+/* Center elements */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: nowrap;
+}
+
+/* Right container */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex: 0 0 auto;
+  min-width: 200px;
+  justify-content: flex-end;
+}
+
+.navbar-nav a,
+.navbar-right a {
+  color: #333;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.navbar-nav a:hover,
+.navbar-right a:hover {
+  color: #ff6b00;
+}
+
+/* User section styling */
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-greeting {
+  color: #333;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Login and Register buttons styling */
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.login-btn,
+.register-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.login-btn {
+  background-color: transparent;
+  border: 1px solid #4caf50;
+  color: #4caf50;
+}
+
+.login-btn:hover {
+  background-color: rgba(76, 175, 80, 0.1);
+  color: #4caf50;
+}
+
+.register-btn {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.register-btn:hover {
+  background-color: #388e3c;
+  color: white;
+}

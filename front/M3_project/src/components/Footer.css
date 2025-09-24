@@ -1,0 +1,13 @@
+.footer {
+  background-color: #2557a7;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+}
+
+.footer p {
+  margin: 0;
+}

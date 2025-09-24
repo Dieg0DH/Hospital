@@ -1,0 +1,157 @@
+.appointments-page {
+  min-height: 100vh;
+  padding-top: 5rem;
+  background-color: #f5f5f5;
+}
+
+.appointments-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.appointments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Appointment styles */
+.appointment-card {
+  background: white;
+  min-height: 170px;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.appointment-card.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background-color: #4caf50;
+}
+
+.appointment-card.cancelled::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background-color: #f44336;
+}
+
+.appointment-info h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.appointment-info p {
+  margin: 0.5rem 0;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.appointment-info .status-cancelled {
+  color: #f44336;
+}
+
+.card-cancel-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.card-cancel-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Message styles */
+.loading-message,
+.error-message,
+.no-appointments {
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+}
+
+.loading-message {
+  background-color: #f5f5f5;
+  color: #666;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+}
+
+.no-appointments {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+}
+
+/* Header styles */
+.appointments-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.new-appointment-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.new-appointment-button:hover {
+  background-color: #388e3c;
+}
+
+/* Success message styles */
+.success-message {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
