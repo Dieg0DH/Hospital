@@ -246,7 +246,7 @@ front/M3_project/
 
 ## 🎮 How to Use
 
-### For Patients
+### For Users
 
 1. **Registration**
 
