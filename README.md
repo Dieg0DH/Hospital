@@ -244,8 +244,6 @@ front/M3_project/
 
 </details>
 
-{{ ... }}
-
 ## 🎮 User Guide
 
 <details>
