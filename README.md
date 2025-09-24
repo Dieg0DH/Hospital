@@ -10,7 +10,6 @@
 
 <div align="center">
   <img src="front/M3_project/src/assets/1.png" alt="PAPI's Medical Care Preview" width="600">
-  <p><em>Screenshot of the appointment Home page</em></p>
 </div>
 
 ## ✨ Features
