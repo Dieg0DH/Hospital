@@ -9,7 +9,7 @@
 ## 📸 Preview
 
 <div align="center">
-  <img src="front/M3_project/src/assets/1.png" alt="PAPI's Medical Care Preview" width="600">
+  <img src="front/M3_project/src/assets/1.png" alt="PAPI's Medical Care Preview" width="1000">
 </div>
 
 ## ✨ Features
